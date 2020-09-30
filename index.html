@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <h1>
+                Международный день музыки
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+       <section class="grid">
+           <div class="one-row category-1">
+               <div></div>
+               <p>Клип</p>
+               <p>Юмор</p>
+               <p>Фильм</p>
+           </div>
+            <div class="one-row" id="rythm-section">
+                <div class="category-2">Ритм-секция</div>            
+                <div class="link">
+                    <button class="myBtn" data-modal="myModal1">
+                        <div class=circle></div>
+                    </button>
+                </div>
+                <div class="link">
+                    <button class="myBtn" data-modal="myModal2">
+                        <div class=circle></div>
+                    </button>
+                </div>
+                <div class="link">
+                    <button>
+                        <div class=circle></div>
+                    </button>
+                </div>            
+            </div>
+            <div class="one-row" id="mult">
+                <div class="category-2">Мультфильм</div>            
+                <div class="link">
+                    <button>
+                        <div class=circle></div>
+                    </button>
+                </div>
+                <div class="link">
+                    <button>
+                        <div class=circle></div>
+                    </button>
+                </div>
+                <div class="link">
+                    <button>
+                        <div class=circle></div>
+                    </button>
+                </div>               
+            </div>
+            <div class="one-row" id="cars">
+                <div class="category-2">Крутые тачки</div>            
+                <div class="link">
+                    <button>
+                        <div class=circle></div>
+                    </button>
+                </div>
+                <div class="link">
+                    <button>
+                        <div class=circle></div>
+                    </button>
+                </div>
+                <div class="link">
+                    <button>
+                        <div class=circle></div>
+                    </button>
+                </div>                    
+            </div>
+            
+       </section>
+    </div>
+
+    <div class="modal" id="myModal1">
+        <div class="modal-backdrop"></div>
+        <div class="modal-body">
+            <button class="close" data-modal="myModal1">
+                <span class="sr-only">close</span>
+            </button>
+            <h2>Dylan</h2>
+        </div>
+    </div>
+
+    <div class="modal" id="myModal2">
+        <div class="modal-backdrop"></div>
+        <div class="modal-body">
+            <button class="close" data-modal="myModal2">
+                <span class="sr-only">close</span>
+            </button>
+            <h2>Second</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

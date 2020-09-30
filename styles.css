@@ -1,0 +1,155 @@
+:root {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body * + * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #e8e8e8;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.grid {
+    border: 1px solid black;
+    border-radius: .5em;
+    margin: 1em 0;
+    padding: 4em 0;
+    display: grid;
+    grid-template-rows: 2em repeat(3, 1fr);
+    grid-template-columns: 200px repeat(3, 3em);
+    /*grid-gap: .7em;    */
+    text-align: center;
+}
+
+.one-row {
+    display: contents;
+}
+
+div {
+    background-color: #fff;
+}
+
+.circle {
+    background-color: #052F6D;
+    margin: 1em auto;
+    padding-top: 1em;
+    width: 1.3em; 
+    height: 1.3em;
+    border-radius: 50%;
+}
+
+.category-2 {
+    padding-top: 1em;
+}
+
+.link {
+    border: solid white 1px;
+    width: 3em;
+    height: 3em;
+    margin: 0;
+    padding: 0;
+   }
+
+.link button {
+    display: block; 
+    height: 100%; /* Высота на весь слой */
+    background-color: #fff;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.link button:hover .circle{
+    background-color: red;
+}
+
+.header {
+    background-color: cornflowerblue;
+}
+
+.category-1 p {
+    transform: rotate(-45deg);  
+    display: inline; 
+    padding-top: 1em;
+    text-indent: 1.5em;
+ }
+
+
+ /*form site: https://ru.stackoverflow.com/questions/639822/%d0%9d%d0%b5%d1%81%d0%ba%d0%be%d0%bb%d1%8c%d0%ba%d0%be-%d0%bc%d0%be%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d1%85-%d0%be%d0%ba%d0%be%d0%bd-%d0%bd%d0%b0-%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%86%d0%b5*/
+
+ /*from Kit Grant*/
+ .modal {
+    display: none;
+  }
+
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(138, 138, 138, 0.5);
+    z-index: 1;
+  }
+
+  .modal-body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 20%;
+    left: 20%;
+    padding: 2em 3em;
+    background-color: white;
+    overflow: auto;
+    z-index: 2;
+  }
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.3em;
+    font-size: 2em;
+    height: 1.7em;
+    width: 1.7em;
+    cursor: pointer;
+    border: 0;
+  }
+  .close::before {
+    display: block;
+    content: '\00D7';
+    font-size: 38px;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+  }
