@@ -23,6 +23,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin-bottom: 2em;
+}
+
 .container {
     position: absolute;
     top: 0;
@@ -115,7 +119,7 @@ div {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(138, 138, 138, 0.5);
+    background-color: rgba(173, 173, 173, 0.5);
     z-index: 1;
   }
 
@@ -123,13 +127,45 @@ div {
     position: fixed;
     top: 0;
     bottom: 0;
-    right: 20%;
-    left: 20%;
+    right: 13%;
+    left: 13%;
     padding: 2em 3em;
     background-color: white;
     overflow: auto;
     z-index: 2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
+
+  .modal-body > div > img {
+      max-width: 49%;
+      max-height: 500px;
+      text-align: center;
+      margin: 2em auto;
+      z-index: 2;
+  }
+
+  .zoom:hover {
+    max-width: 80%;
+    max-height: none;
+}
+
+.modal-body .nonzoom {
+    max-width: 70%;
+    max-height: none;
+}
+  .center {
+    text-align: center;
+  }
+
+ .twoPict {
+    display: inline;
+    text-align: center;
+}
+
+ .big {
+     padding-left: 15%;
+     padding-right: 15%;
+ }
 
   .close {
     position: absolute;
