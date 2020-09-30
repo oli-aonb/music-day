@@ -1,5 +1,5 @@
 :root {
-    font-size: 16px;
+    font-size: 14px;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ body * + * {
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Tahoma, sans-serif;
     background-color: #e8e8e8;
 }
 
@@ -40,19 +40,22 @@ p {
     right: 20%;
     background-color: #fff;
     margin: 0 auto;
-    box-shadow: 0 0 20px rgba(0, 0, 150, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 70, 0.5);
 }
 
 .grid {
-    border: 1px solid black;
-    border-radius: .5em;
     margin: 1em 0;
-    padding: 2em 0;
+    padding: 2em 0 5em 0;
     display: grid;
     grid-template-rows: 150px repeat(4, 1fr);
     grid-template-columns: 300px repeat(4, 4em);
     /*grid-gap: .7em;    */
     text-align: center;
+    background-color:rgb(253, 190, 35);
+}
+
+.grid * {
+    background-color:rgb(253, 190, 35);
 }
 
 .one-row {
@@ -64,7 +67,7 @@ div {
 }
 
 .circle {
-    background-color: #052F6D;
+    background-color: #011a3f;
     margin: 1em auto;
     padding-top: 1em;
     width: 1.3em; 
@@ -80,18 +83,18 @@ div {
 .category-1 p {
     writing-mode: tb-rl;
     transform:rotate(213deg);
-    padding-right: 1.9em;
-    padding-top: .9em;
+    padding-right: 1.6em;
+    padding-top: .3em;
     text-align: left;
     font-size: 1.2em;
  }
 
 .link {
-    border: solid white 1px;
     width: 3em;
     height: 3em;
     margin: 0;
     padding: 0;
+    background-color:rgb(253, 190, 35);
    }
 
 .link button {
@@ -99,18 +102,19 @@ div {
     height: 100%; /* Высота на весь слой */
     background-color: #fff;
     outline: 0;
-    border: 0;
+    border: none;
     cursor: pointer;
+    background-color:rgb(253, 190, 35);
 }
 
 .link button:hover .circle{
-    background-color: red;
+    background-color: whitesmoke;
 }
-
+/*
 .header {
     background-color: rgb(125, 167, 245);
 }
-
+*/
 
  /*form site: https://ru.stackoverflow.com/questions/639822/%d0%9d%d0%b5%d1%81%d0%ba%d0%be%d0%bb%d1%8c%d0%ba%d0%be-%d0%bc%d0%be%d0%b4%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d1%85-%d0%be%d0%ba%d0%be%d0%bd-%d0%bd%d0%b0-%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%86%d0%b5*/
 
