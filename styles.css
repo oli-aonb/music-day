@@ -27,6 +27,11 @@ h2 {
     margin-bottom: 2em;
 }
 
+p {
+    margin: 0 13% 1em 13%;
+
+}
+
 .container {
     position: absolute;
     top: 0;
@@ -35,6 +40,7 @@ h2 {
     right: 20%;
     background-color: #fff;
     margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 150, 0.5);
 }
 
 .grid {
@@ -102,7 +108,7 @@ div {
 }
 
 .header {
-    background-color: cornflowerblue;
+    background-color: rgb(125, 167, 245);
 }
 
 
@@ -161,11 +167,6 @@ div {
     display: inline;
     text-align: center;
 }
-
- .big {
-     padding-left: 15%;
-     padding-right: 15%;
- }
 
   .close {
     position: absolute;
