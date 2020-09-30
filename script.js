@@ -26,4 +26,4 @@ window.onclick = function(event) {
     if (isModal) {
       event.target.style.display = "none";
     }
-  }
+  };
