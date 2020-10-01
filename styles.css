@@ -61,7 +61,7 @@ p {
     }
 
     .grid {
-      max-width: 100%;
+      
       grid-template-columns: 150px repeat(4, 1fr);
       font-size: .9em;
     }
