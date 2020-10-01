@@ -54,6 +54,19 @@ p {
     background-color:rgb(253, 190, 35);
 }
 
+@media (max-width: 1199px) {
+    .container {
+      left: 0;
+      right: 0;
+    }
+
+    .grid {
+      padding: 1em 0 3em 0;
+      grid-template-rows: 100px repeat(4, 1fr);
+      font-size: .9em;
+    }
+}
+
 .grid * {
     background-color:rgb(253, 190, 35);
 }
