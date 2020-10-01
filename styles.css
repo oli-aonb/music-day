@@ -61,9 +61,13 @@ p {
     }
 
     .grid {
-      
-      grid-template-columns: 150px repeat(4, 1fr);
+      grid-template-columns: 130px repeat(4, 1fr);
       font-size: .9em;
+    }
+
+    .modal-body {
+      right: 0;
+      left: 0;
     }
 }
 
