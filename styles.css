@@ -62,7 +62,7 @@ p {
 
     .grid {
       padding: 1em 0 3em 0;
-      grid-template-rows: 100px repeat(4, 1fr);
+      grid-template-rows: 50px repeat(4, 1fr);
       font-size: .9em;
     }
 }
